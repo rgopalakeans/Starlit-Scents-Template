@@ -283,12 +283,12 @@ product_4.slick({
         }
     ]
 });
-var product_two_row_4 = $('.product-two-row-4');
+var product_two_row_4 = $('.product3-two-row');
 product_two_row_4.slick({
     dots: false,
     infinite: true,
     rows: 2,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
     prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
@@ -502,17 +502,6 @@ $.scrollUp({
     scrollSpeed: 900,
     animation: 'fade'
 });    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
 })(jQuery);

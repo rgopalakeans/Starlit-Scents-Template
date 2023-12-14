@@ -101,6 +101,7 @@ h6 {
   font-size: 16px;
   line-height: 18px;
 }
+
 @media only screen and (max-width: 767px) {
   h1 {
     font-size: 34px;
@@ -182,9 +183,7 @@ a:focus {
           box-shadow: none !important;
 }
 
-/*-- 
-    - Common Classes
------------------------------------------*/
+/*==== Common CSS   ====*/
 .fix {
   overflow: hidden;
 }
@@ -205,7 +204,13 @@ a:focus {
   float: left;
   width: 100%;
 }
-
+.section-bg {
+	background-color: #f8f9fa;
+}
+.image-box {
+	height: 100%;
+	display: flex;
+}
 @media only screen and (max-width: 767px) {
   .container {
     width: 450px;
@@ -11921,17 +11926,21 @@ ul.minicart-pricing-box li:last-child {
   margin: auto;
 }
 
-/*--
-   05. Product Area CSS
-------------------------------*/
+/*====  05. Product Area CSS  ====*/
+
 .porduct-area .single-product-wrap {
   padding-left: 15px;
   padding-right: 15px;
 }
-
-.single-product-wrap {
-  margin-top: 30px;
+.slick-initialized .slick-slide {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px 0;
 }
+
+/* .single-product-wrap {
+  margin-top: 30px;
+} */
 .single-product-wrap:hover .product-action {
   opacity: 1;
   -ms-filter: 1;
@@ -11940,7 +11949,7 @@ ul.minicart-pricing-box li:last-child {
   transform: translateY(-50%);
 }
 .single-product-wrap:hover .product-image > a {
-  border-bottom: 1px solid #ff5151;
+  border: 1px solid #ff5151;
 }
 .single-product-wrap:hover a:before {
   opacity: 1;
@@ -11971,29 +11980,34 @@ ul.minicart-pricing-box li:last-child {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.product-image .product-action .wishlist, .product-image .product-action .add-to-cart, .product-image .product-action .quick-view {
-  background: #ddd none repeat scroll 0 0;
+.product-image .product-action .wishlist, 
+.product-image .product-action .add-to-cart, 
+.product-image .product-action .quick-view {
   display: inline-block;
   font-size: 18px;
-  height: 40px;
-  line-height: 44px;
   width: 40px;
-  color: #6f6f6f;
+  height: 40px;
+  line-height: 40px;
+  color: #414141;
+  background-color: #fff;
+  border-radius: 50%;
 }
-.product-image .product-action .wishlist:hover, .product-image .product-action .add-to-cart:hover, .product-image .product-action .quick-view:hover {
+.product-image .product-action .wishlist:hover, 
+.product-image .product-action .add-to-cart:hover, 
+.product-image .product-action .quick-view:hover {
   background: #ff5151;
   color: #ffffff;
 }
 .product-image span.label {
   position: absolute;
-  top: 0;
-  background: #ff5151;
+  top: 5px;
+  left: 5px;
   color: #ffffff;
   font-size: 12px;
   padding: 2px 15px;
   border-radius: 25px;
+  background-color: #ff5151;
 }
-
 .product-content {
   margin-top: 20px;
   text-align: center;
@@ -12015,60 +12029,57 @@ ul.minicart-pricing-box li:last-child {
 .product-content .price-box .old-price {
   text-decoration: line-through;
 }
-
 .product-active-lg-4 {
   overflow: hidden;
 }
-
-.product-active-lg-4 .slick-arrow, .product-two-row-4 .slick-arrow {
-  font-size: 20px;
+.product-active-lg-4 .slick-arrow, 
+.product3-two-row .slick-arrow {
   position: absolute;
   top: 50%;
   left: 15px;
   right: auto;
-  background: #ddd;
-  border: none;
   width: 40px;
   height: 40px;
+  font-size: 20px;
+  background: #ddd;
+  border: none;
   border-radius: 5px;
   z-index: 5;
   visibility: hidden;
   opacity: 0;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-
-.product-active-lg-4 .slick-arrow.slick-next, .product-two-row-4 .slick-arrow.slick-next {
+.product-active-lg-4 .slick-arrow.slick-next, 
+.product3-two-row .slick-arrow.slick-next {
   right: 15px;
   left: auto;
 }
-
-.product-active-lg-4:hover .slick-arrow, .product-two-row-4:hover .slick-arrow {
+.product-active-lg-4:hover .slick-arrow, 
+.product3-two-row:hover .slick-arrow {
   visibility: visible;
   opacity: 1;
 }
-
-.product-active-lg-4:hover .slick-arrow.slick-prev, .product-two-row-4:hover .slick-arrow.slick-prev {
+.product-active-lg-4:hover .slick-arrow.slick-prev, 
+.product3-two-row:hover .slick-arrow.slick-prev {
   left: 0px;
 }
-
-.product-active-lg-4:hover .slick-arrow.slick-next, .product-two-row-4:hover .slick-arrow.slick-next {
+.product-active-lg-4:hover .slick-arrow.slick-next, 
+.product3-two-row:hover .slick-arrow.slick-next {
   right: 0px;
 }
 
-/*--
-    06. Testimonial
---------------------*/
+/*====  06. Testimonial   ====*/
+
 .testimonial-bg {
   background: url(../images/bg/testimonial-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .content-testimonial {
   padding: 40px 35px 40px 30px;
   border-bottom: 1px solid #e1e1e1;
@@ -12077,12 +12088,12 @@ ul.minicart-pricing-box li:last-child {
 }
 .content-testimonial::after {
   position: absolute;
+  top: 30px;
+  left: 0;
   content: "";
   background: url(../image/icon/testimonial-01.png);
   height: 175px;
   width: 33px;
-  top: 30px;
-  left: 0;
   background-repeat: no-repeat;
 }
 
@@ -12092,26 +12103,23 @@ ul.minicart-pricing-box li:last-child {
 }
 .testimonial-info::after {
   position: absolute;
-  content: "";
-  background: url(../image/icon/testimonial-02.png);
-  background-repeat: repeat;
-  height: 120px;
-  width: 131px;
   top: 0;
   left: 0;
-  background-repeat: no-repeat;
+  content: "";
+  background: url(../image/icon/testimonial-02.png);
+  background-repeat: no-repeat;;
+  height: 120px;
+  width: 131px;
 }
 .testimonial-info h5 {
   font-weight: 500;
 }
-
 .testimonial-inner {
   padding-bottom: 50px;
 }
 .testimonial-inner .test-author {
   margin-top: 20px;
 }
-
 .test-cont {
   text-align: center;
   margin: auto;
@@ -12122,28 +12130,20 @@ ul.minicart-pricing-box li:last-child {
 .test-cont p {
   margin-top: 30px;
 }
-
 .testimonial-slider .slick-dots {
-  text-align: center;
-  margin-top: 20px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 30px auto 0 0;
+  margin: 20px auto 0 0;
+  text-align: center;
 }
-
 .testimonial-slider .slick-dots li {
   display: inline-block;
   margin: 0 4px;
 }
 
 .testimonial-slider .slick-dots li button {
-  background-image: url(../images/icon/slider-btn-01.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 0;
-  line-height: 0;
   display: block;
   width: 20px;
   height: 20px;
@@ -12153,15 +12153,16 @@ ul.minicart-pricing-box li:last-child {
   border: 0;
   outline: none;
   border-radius: 50%;
+  font-size: 0;
+  line-height: 0;
 }
 
-.testimonial-slider .slick-dots li.slick-active button {
+/* .testimonial-slider .slick-dots li.slick-active button {
   background-image: url(../images/icon/slider-btn-active.png);
-}
+} */
 
-/*--
-   07. Product Details CSS
----------------------------*/
+/*====  07. Product Details   ====*/
+
 .modal-dialog {
   max-width: 1024px;
 }
@@ -12697,11 +12698,11 @@ ul.minicart-pricing-box li:last-child {
       -ms-transform: scale(1.03);
           transform: scale(1.03);
 }
-.single-banner-two:hover .banner-content-two h3 {
+.single-banner-two:hover .full-banner-content h3 {
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInUp;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInUp;
 }
-.single-banner-two:hover .banner-content-two a {
+.single-banner-two:hover .full-banner-content a {
   -webkit-animation: 600ms ease-in-out 0s normal none 1 running fadeInUp;
   animation: 600ms ease-in-out 0s normal none 1 running fadeInUp;
 }
@@ -12717,67 +12718,61 @@ ul.minicart-pricing-box li:last-child {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-.banner_bg-two {
-  background: url(../images/banner/banner.jpg);
+.banner-full {
+  background: url(../images/banner/full-banner-bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 500px;
 }
-
-.banner-content-two {
-  top: 0;
-  right: 0;
+.full-banner-content {
   padding: 60px 50px;
   height: auto;
-  width: auto;
-  left: 0;
-  bottom: 0;
-  margin-left: 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.banner-content-two h3 span {
+.full-banner-content h3 span {
   color: #ff5151;
   font-size: 46px;
 }
-.banner-content-two a {
+.full-banner-content a {
   margin-top: 30px;
   color: #ff5151;
   font-weight: 600;
   font-size: 18px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .banner-content-two {
+  .full-banner-content {
     margin-left: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .banner-content-two {
+  .full-banner-content {
     padding: 40px 10px;
     margin-left: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .banner-content-two {
+  .full-banner-content {
     padding: 30px 10px;
     margin-left: 10px;
   }
-  .banner-content-two h3 {
+  .full-banner-content h3 {
     font-size: 18px;
     line-height: 20px;
   }
-  .banner-content-two h3 span {
+  .full-banner-content h3 span {
     color: #ff5151;
     font-size: 22px;
   }
-  .banner-content-two a {
+  .full-banner-content a {
     margin-top: 20px;
   }
 }
@@ -13194,13 +13189,11 @@ ul.minicart-pricing-box li:last-child {
   padding-top: 60px;
 }
 
-/*--
-    10. Footer CSS
--------------------------*/
+/*====  10. Footer  ====*/
+
 .footer-top {
   background: #f6f6f6;
 }
-
 .widget-footer .footer-logo {
   margin-bottom: 10px;
   margin-top: -5px;
@@ -13208,20 +13201,20 @@ ul.minicart-pricing-box li:last-child {
 .widget-footer .title-widget {
   margin-bottom: 30px;
 }
-
 .newsletter-footer {
-  margin-top: 18px;
+	margin-top: 0;
+	width: 100%;
+	max-width: 600px;
 }
 .newsletter-footer input {
   width: 100%;
-  max-width: 300px;
   border: none;
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
   background-color: transparent;
 }
 .newsletter-footer .subscribe-button {
-  width: 100%;
+  width: fit-content;
 }
 .newsletter-footer .subscribe-btn {
   padding: 6px 20px;
@@ -13283,7 +13276,12 @@ ul.minicart-pricing-box li:last-child {
   background: #f1f1f1;
   padding: 20px 0;
 }
-
+.newsletter-banner{
+  background: url(../images/bg/newsletter-bg.jpg) no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  min-height: 320px;
+}
 /*--
     11. Widget CSS
 ---------------------*/
