@@ -22,7 +22,7 @@
     07. Product Details CSS
     08. Banner CSS
     09. Bloag CSS
-    10. Footer CSS
+    10. Features Section
     11. Widget CSS
     12. Compare Page CSS
     13. Login And Register CSS
@@ -34,6 +34,7 @@
     19. Team Area CSS
     20. Project Conunt CSS  
     21. Contact CSS
+    22. Footer CSS
 
 --------------------------------------------------------*/
 /* transition */
@@ -50,16 +51,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;500;600;700&family=Libre+Franklin:wght@400;500;600;700;900&family=Tangerine:wght@400;700&family=Whisper&display=swap');
 
-/*-- Common Style --*/
+/*==== Common Style ====*/
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 html, body {
   height: 100%;
 }
-
 body {
   position: relative;
   background-color: #ffffff;
@@ -74,7 +74,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Slab', serif;
   font-weight: 700;
-  color: #3a3a3a;
+  color: #414141;
   margin-top: 0;
 }
 h1 {
@@ -90,12 +90,12 @@ h3 {
   line-height: 38px;
 }
 h4 {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 24px;
+  line-height: 30px;
 }
 h5 {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 24px;
 }
 h6 {
   font-size: 16px;
@@ -123,7 +123,6 @@ h6 {
 p:last-child {
   margin-bottom: 0;
 }
-
 a, button {
   color: inherit;
   display: inline-block;
@@ -131,52 +130,42 @@ a, button {
   text-decoration: none;
   cursor: pointer;
 }
-
 a:hover {
   color: #ff5151;
 }
-
 a, button, img, input, span {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
 *:focus {
   outline: none !important;
 }
-
 a:focus {
   color: inherit;
   outline: none;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 button, input[type=submit] {
   cursor: pointer;
 }
-
 ul {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
-
 img {
   max-width: 100%;
 }
-
 button:focus,
 a:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-
 .btn, .btn:focus {
   outline: 0;
   -webkit-box-shadow: none !important;
@@ -184,6 +173,7 @@ a:focus {
 }
 
 /*==== Common CSS   ====*/
+
 .fix {
   overflow: hidden;
 }
@@ -255,7 +245,7 @@ a:focus {
   margin: 0;
 }
 
-/*-- Container Fluid --*/
+/*==== Container Fluid  ====*/
 .container-fluid {
   padding: 0 30px;
 }
@@ -318,9 +308,8 @@ a:focus {
   }
 }
 
-/*--
-    - Custom Container
-------------------------------------------*/
+/*====  Custom Container  ====*/
+
 .container-ext-5 {
   max-width: 1210px;
   width: 100%;
@@ -421,9 +410,8 @@ a:focus {
   width: 100%;
 }
 
-/*--
-    - Custom Row
-------------------------------------------*/
+/*====  Custom Row  ====*/
+
 .row-1 {
   margin-left: -1px;
   margin-right: -1px;
@@ -12119,6 +12107,7 @@ ul.minicart-pricing-box li:last-child {
 }
 .testimonial-inner .test-author {
   margin-top: 20px;
+  width: 100%;
 }
 .test-cont {
   text-align: center;
@@ -13189,99 +13178,15 @@ ul.minicart-pricing-box li:last-child {
   padding-top: 60px;
 }
 
-/*====  10. Footer  ====*/
+/*====  10. Features Section  ====*/
 
-.footer-top {
-  background: #f6f6f6;
-}
-.widget-footer .footer-logo {
-  margin-bottom: 10px;
-  margin-top: -5px;
-}
-.widget-footer .title-widget {
-  margin-bottom: 30px;
-}
-.newsletter-footer {
-	margin-top: 0;
-	width: 100%;
-	max-width: 600px;
-}
-.newsletter-footer input {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
-  background-color: transparent;
-}
-.newsletter-footer .subscribe-button {
-  width: fit-content;
-}
-.newsletter-footer .subscribe-btn {
-  padding: 6px 20px;
-  border: none;
-  background: #ff5151;
-  color: #ffffff;
-  margin-top: 12px;
+.features-icon{
+  font-size: 70px;
 }
 
-.footer-list li {
-  margin-bottom: 8px;
-}
-.footer-list li:last-child {
-  margin-bottom: 0;
-}
+/*==== Features End  ====*/
 
-.footer-contact li {
-  margin-bottom: 10px;
-}
-.footer-contact li:last-child {
-  margin-bottom: 0;
-}
-.footer-contact label {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 2px;
-}
 
-.footer-blog li {
-  margin-bottom: 25px;
-}
-.footer-blog li:last-child {
-  margin-bottom: 0;
-}
-
-.widget-blog-wrap {
-  position: relative;
-}
-
-.widget-blog-image {
-  max-width: 76px;
-  position: absolute;
-  min-height: 70px;
-}
-
-.widget-blog-content {
-  padding-left: 80px;
-}
-.widget-blog-content h6 {
-  font-weight: 400;
-  font-size: 14px;
-}
-.widget-blog-content span {
-  font-size: 13px;
-  margin-right: 8px;
-}
-
-.footer-bottom {
-  background: #f1f1f1;
-  padding: 20px 0;
-}
-.newsletter-banner{
-  background: url(../images/bg/newsletter-bg.jpg) no-repeat center;
-  background-size: auto;
-  background-size: cover;
-  min-height: 320px;
-}
 /*--
     11. Widget CSS
 ---------------------*/
@@ -14925,3 +14830,101 @@ justify-content: space-between;*/
   color: #008000;
   font-style: italic;
 }
+/*====  22. Footer  ====*/
+
+.footer-top {
+  background: #f6f6f6;
+}
+.widget-footer .footer-logo {
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+.widget-footer .title-widget {
+  font-weight: 900;
+}
+.newsletter-footer {
+	margin-top: 0;
+	width: 100%;
+	max-width: 600px;
+}
+.newsletter-footer input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  background-color: transparent;
+}
+.newsletter-footer .subscribe-button {
+  width: fit-content;
+}
+.newsletter-footer .subscribe-btn {
+  padding: 6px 20px;
+  border: none;
+  background: #ff5151;
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+.footer-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contact li {
+  margin-bottom: 10px;
+}
+.footer-contact li:last-child {
+  margin-bottom: 0;
+}
+.footer-contact label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.footer-contact label span {
+	border-bottom: 2px solid #ff5151;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.footer-blog li {
+  margin-bottom: 25px;
+}
+.footer-blog li:last-child {
+  margin-bottom: 0;
+}
+
+.widget-blog-wrap {
+  position: relative;
+}
+
+.widget-blog-image {
+  max-width: 76px;
+  position: absolute;
+  min-height: 70px;
+}
+
+.widget-blog-content {
+  padding-left: 80px;
+}
+.widget-blog-content h6 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.widget-blog-content span {
+  font-size: 13px;
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  background: #f1f1f1;
+  padding: 20px 0;
+}
+.newsletter-banner{
+  background: url(../images/bg/newsletter-bg.jpg) no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  min-height: 320px;
+}
+/*====  Footer End  ====*/
