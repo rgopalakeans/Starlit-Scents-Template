@@ -14707,9 +14707,8 @@ justify-content: space-between;*/
   font-weight: 500;
 }
 
-/*--
-    21. Contact CSS
------------------------*/
+/*====  21. Contact ====*/
+
 .contact-form-info {
   padding: 20px 50px 20px 0;
 }
@@ -14718,13 +14717,9 @@ justify-content: space-between;*/
     padding: 0;
   }
 }
-
 .contact-title > h3 {
-  font-size: 22px;
-  margin-bottom: 30px;
-  font-weight: 600;
+  margin-bottom: 15px;
 }
-
 .contact-input {
   display: block;
   margin: 0 -10px;
@@ -14786,17 +14781,21 @@ justify-content: space-between;*/
 .contact-address li i {
   margin-right: 5px;
 }
-
 .work-hours {
   margin-bottom: 15px;
 }
+.contact-map iframe {
+	height: 555px;
+	width: 100%;
+	margin-bottom: -6px;
+}
 .contact-submit-btn .submit-btn {
-  background: #333333 none repeat scroll 0 0;
-  border: 0 none;
-  border-radius: 3px;
+  display: inline-block;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
+  background: #ff5151 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 3px;
   font-size: 14px;
   font-weight: 400;
   height: 40px;
@@ -14808,7 +14807,7 @@ justify-content: space-between;*/
   transition: all 0.4s ease-out 0s;
 }
 .contact-submit-btn .submit-btn:hover {
-  background: #ff5151;
+  background: #414141;
 }
 .form-messege {
   margin-bottom: 0;
