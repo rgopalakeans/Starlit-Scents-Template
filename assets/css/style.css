@@ -12826,14 +12826,13 @@ ul.minicart-pricing-box li:last-child {
 }
 .our-blog-contnet .post_meta {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 18px;
 }
 .our-blog-contnet .post_meta ul li {
   display: inline-block;
   position: relative;
   padding: 0 10px 0 0;
   margin: 0 10px 0 0;
-  position: relative;
 }
 .our-blog-contnet .post_meta ul li::before {
   content: "";
@@ -12844,8 +12843,8 @@ ul.minicart-pricing-box li:last-child {
   right: 0;
   position: absolute;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 .our-blog-contnet .post_meta ul li:last-child::before {
   display: none;
@@ -12854,7 +12853,7 @@ ul.minicart-pricing-box li:last-child {
   color: #ff5151;
 }
 .our-blog-contnet > p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .our-blog-contnet .button-block {
   margin-top: 20px;
@@ -13108,7 +13107,7 @@ ul.minicart-pricing-box li:last-child {
   position: relative;
 }
 .pro_review:nth-child(3n) {
-  padding-left: 120px;
+  padding-left: 60px;
 }
 @media only screen and (max-width: 767px) {
   .pro_review:nth-child(3n) {
@@ -13146,10 +13145,10 @@ ul.minicart-pricing-box li:last-child {
   font-size: 16px;
   margin-top: 0px;
 }
-
+/* 
 .comments-reply-area .comment-reply-title {
   font-weight: 600;
-}
+} */
 .comments-reply-area .comment-input input {
   width: 100%;
   margin-bottom: 30px;
