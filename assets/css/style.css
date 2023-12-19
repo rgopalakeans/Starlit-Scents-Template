@@ -8552,7 +8552,7 @@ img.mfp-img {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 18px;
-  color: #3a3a3a;
+  color: #414141;
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -8562,19 +8562,21 @@ img.mfp-img {
 /*====  Button  ====*/
 
 .btn, .btn-2 {
-  border: 1px solid #626262;
-  line-height: 24px;
-  padding: 10px 40px;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #3a3a3a;
   overflow: hidden;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  border: 1px solid #ff5151;
+  line-height: 24px;
+  padding: 10px 40px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff5151;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 .btn:focus, .btn-2:focus {
   outline: none;
@@ -8585,7 +8587,7 @@ img.mfp-img {
   top: 50%;
   height: 0;
   width: 150%;
-  background-color: #3a3a3a;
+  background-color: #414141;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -13164,20 +13166,6 @@ ul.minicart-pricing-box li:last-child {
 .comments-reply-area .comment-form-submit {
   margin-top: 30px;
 }
-.comments-reply-area .comment-form-submit .comment-submit {
-  background: #ff5151;
-  color: #ffffff;
-  font-weight: 600;
-  border: none;
-  text-transform: uppercase;
-  padding: 8px 30px;
-  font-size: 16px;
-  letter-spacing: 1px;
-  border-radius: 5px;
-}
-.comments-reply-area .comment-form-submit .comment-submit:hover {
-  background: #333;
-}
 
 .comments-reply-area {
   margin-top: 30px;
@@ -14518,7 +14506,7 @@ justify-content: space-between;*/
 .about-us-contents h2 > span {
   color: #ff5151;
 }
-.about-us-contents .about-us-btn > a {
+/* .about-us-contents .about-us-btn > a {
   margin-top: 30px;
   letter-spacing: 1px;
   padding: 10px 45px;
@@ -14530,7 +14518,7 @@ justify-content: space-between;*/
 }
 .about-us-contents .about-us-btn > a:hover {
   color: #ffffff;
-}
+} */
 @media only screen and (max-width: 767px) {
   .about-us-contents .about-us-btn > a {
     margin-top: 10px;
@@ -14789,7 +14777,7 @@ justify-content: space-between;*/
 	width: 100%;
 	margin-bottom: -6px;
 }
-.contact-submit-btn .submit-btn {
+/* .contact-submit-btn .submit-btn {
   display: inline-block;
   color: #ffffff;
   cursor: pointer;
@@ -14808,7 +14796,7 @@ justify-content: space-between;*/
 }
 .contact-submit-btn .submit-btn:hover {
   background: #414141;
-}
+} */
 .form-messege {
   margin-bottom: 0;
   margin-top: 3px;
