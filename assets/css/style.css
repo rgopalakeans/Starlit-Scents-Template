@@ -13672,8 +13672,8 @@ ul.minicart-pricing-box li:last-child {
 }
 .compare-table .table tbody tr td.pro-addtocart .add-to-cart {
   position: relative;
-  background-color: #f6f6f6;
-  color: #000000;
+  background-color: #ff5151;
+  color: #ffffff;
   border-radius: 50px;
   display: inline-block;
   width: 170px;
