@@ -14170,22 +14170,21 @@ justify-content: space-between;*/
   color: #A80135;
 }
 
-/*-- 
-   17. Checkout Page CSS
-------------------------------*/
+/*====  17. Checkout Page ====*/
+
 .coupon-accordion h3 {
-  background: #f6f6f6;
-  border-top: 3px solid #ff5151;
-  color: #515151;
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0 0 30px;
-  padding: 1em 2em 1em 3.5em;
   position: relative;
-  text-transform: capitalize;
+	background: #f6f6f6;
+	color: #414141;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 0 30px;
+	padding: 1em 2em 1em 3.5em;
+	border-top: 3px solid #ff5151;
+	text-transform: capitalize;
 }
 .coupon-accordion h3 .coupon {
-  color: #ff5151;
+  color: #ff5151;;
   cursor: pointer;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -14260,13 +14259,10 @@ justify-content: space-between;*/
     margin: 10px 0 0 0px;
   }
 }
-
 .shoping-checkboxt-title {
-  border-bottom: 1px solid #dddddd;
-  font-size: 24px;
-  font-weight: 500;
   margin-bottom: 30px;
   padding-bottom: 15px;
+  border-bottom: 1px solid #dddddd;
 }
 
 .single-form-row {
@@ -14349,12 +14345,12 @@ justify-content: space-between;*/
   border-right: medium none;
   font-size: 14px;
   padding: 15px 0;
-  text-align: center;
+  text-align: left;
 }
 .your-order-table table th {
   border-top: medium none;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   vertical-align: middle;
   white-space: nowrap;
@@ -14402,26 +14398,19 @@ justify-content: space-between;*/
   margin-top: 30px;
 }
 .order-button-payment input {
-  background: #ff5151;
-  border: medium none;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 12px;
   text-transform: uppercase;
   width: 100%;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
 }
 .order-button-payment input:hover {
   background: #000000;
   color: #ffffff;
 }
 
-/*--
-    18. About CSS
--------------------*/
+/*====  18. About ====*/
+
 .section-inner-ptb {
   padding: 180px 0;
 }
