@@ -14127,18 +14127,8 @@ justify-content: space-between;*/
   padding: 8px 16px;
 }
 .plantmore-product-add-cart > a {
-  background: #000000;
-  color: #ffffff;
   font-size: 14px;
-  font-weight: 500;
-  padding: 6px 30px;
-  text-transform: capitalize;
-  -webkit-transform: 0.4s;
-  -ms-transform: 0.4s;
-  transform: 0.4s;
-}
-.plantmore-product-add-cart > a:hover {
-  background: #ff5151;
+  padding: 6px 15px;
 }
 
 .in-stock {
