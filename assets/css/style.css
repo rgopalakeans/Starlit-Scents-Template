@@ -14403,10 +14403,11 @@ justify-content: space-between;*/
   background-color: transparent;
   border: 0;
   box-shadow: none;
+  color:#ffffff;
 }
-.order-button-payment input:hover {
-  background: #000000;
-  color: #ffffff;
+.order-button-payment:hover input {
+  color: #ff5151;
+  background-color: transparent;
 }
 
 /*====  18. About ====*/
