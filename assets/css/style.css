@@ -12361,17 +12361,16 @@ ul.minicart-pricing-box li:last-child {
   opacity: 1;
   visibility: visible;
 }
-
 @media only screen and (max-width: 479px), only screen and (max-width: 767px) {
   .product_details_info {
     margin-top: 20px;
   }
 }
-
 .horizantal-product-active {
   margin-top: 15px;
   margin-left: 1px;
   margin-right: 1px;
+  width: 100%;
 }
 .horizantal-product-active .pot-small-img {
   margin-right: 15px;
@@ -12580,7 +12579,6 @@ ul.minicart-pricing-box li:last-child {
   color: #000000;
   margin-right: 8px;
 }
-
 .pro_review {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12599,10 +12597,31 @@ ul.minicart-pricing-box li:last-child {
     margin-top: 30px;
   }
 }
+.slick-arrow {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	z-index: 9;
+	position: absolute;
+	top: 50%;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.product_small_images-left:hover .slick-prev, .product_small_images-left:hover .slick-next, .product_small_images-bottom:hover .slick-prev, .product_small_images-bottom:hover .slick-next {
+	opacity: 1;
+	visibility: visible;
+}
+.product_small_images-left .slick-next, .product_small_images-bottom .slick-next {
+	right: 0;
+}
+/*====  08. Banner  ====*/
 
-/*--
-    08. Banner CSS
---------------------------*/
 .single-banner {
   position: relative;
 }
