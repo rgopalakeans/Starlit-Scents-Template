@@ -11941,7 +11941,7 @@ ul.minicart-pricing-box li:last-child {
 .slick-initialized .slick-slide {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 30px 0;
+	gap: 30px 15px;
 }
 
 /* .single-product-wrap {
@@ -12223,7 +12223,7 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .portfolio-full-image {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
 }
 .portfolio-full-image img {
   width: 100%;
@@ -12239,7 +12239,6 @@ ul.minicart-pricing-box li:last-child {
 .product_big_images-right {
   float: right;
   width: calc(100% - 130px);
-  padding-left: 15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .product_big_images-right {
@@ -12284,7 +12283,7 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .vartical-product-active li {
-  margin: 0 0px 10px 0;
+  margin: 0 0px 18px 0;
   border: 1px solid #ddd !important;
 }
 .vartical-product-active li:last-child {
@@ -12381,28 +12380,21 @@ ul.minicart-pricing-box li:last-child {
   border: none;
   background-color: transparent;
 }
-
 .product_small_images-bottom .slick-list {
   margin-right: -15px;
 }
-
 .product_details_info > h2 {
-  color: #444444;
-  font-size: 30px;
-  font-weight: 500;
+  color: #414141;
   text-transform: capitalize;
 }
-
 .product-rating li {
   padding-right: 10px;
   color: #ff5151;
   font-size: 18px;
 }
-
 .pro_details p {
   margin-top: 10px;
 }
-
 .pro_dtl_prize li {
   font-size: 22px;
   color: #ff5151;
@@ -12416,13 +12408,10 @@ ul.minicart-pricing-box li:last-child {
   color: #000000;
   text-decoration: line-through;
 }
-
 .title_2 {
   font-size: 20px;
-  font-weight: 500;
   line-height: 1;
 }
-
 .pro_dtl_color {
   margin-top: 15px;
 }
@@ -12446,7 +12435,6 @@ ul.minicart-pricing-box li:last-child {
 .pro_dtl_color .yellow a {
   color: #ffd542;
 }
-
 .pro_dtl_size {
   margin-top: 15px;
 }
@@ -12457,7 +12445,6 @@ ul.minicart-pricing-box li:last-child {
 .pro_dtl_size .pro_choose_size li:last-child {
   padding: 0;
 }
-
 .product-quantity-action {
   margin-top: 15px;
   font-weight: 500;
@@ -12467,8 +12454,8 @@ ul.minicart-pricing-box li:last-child {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .product-quantity-action .product-quantity {
   margin-left: 10px;
@@ -12478,7 +12465,6 @@ ul.minicart-pricing-box li:last-child {
   text-align: center;
   height: 30px;
 }
-
 .pro_social_share {
   margin-top: 15px;
 }
@@ -12486,7 +12472,6 @@ ul.minicart-pricing-box li:last-child {
   display: inline-block;
   padding-left: 10px;
 }
-
 .pro_dtl_btn {
   margin-top: 20px;
   display: -webkit-box;
@@ -12517,7 +12502,6 @@ ul.minicart-pricing-box li:last-child {
   color: #ffffff;
   border: 1px solid #ff5151;
 }
-
 .product-details-tab .nav {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -12577,18 +12561,14 @@ ul.minicart-pricing-box li:last-child {
   -ms-filter: 1;
   width: 100%;
 }
-
 .single-product-gallery {
   float: left;
   padding: 5px;
   width: 50%;
 }
-
 .title_3 {
   font-size: 22px;
-  font-weight: 500;
 }
-
 .feature_list li {
   margin-bottom: 5px;
 }
@@ -13959,7 +13939,24 @@ ul.minicart-pricing-box li:last-child {
     margin-bottom: 40px;
   }
 }
-
+.search-form-input {
+  position: relative;
+}
+.search-form-input input {
+  border: 1px solid #dddddd;
+  font-size: 15px;
+  padding: 5px 45px 6px 10px;
+  position: relative;
+  border-radius: 35px;
+}
+.search-form-input .search-s-button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 7px 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 .error-form-input {
   position: relative;
   width: 275px;
@@ -13983,21 +13980,7 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .search-error-wrapper .home-bacck-button {
-  background: #ff5151;
-  border-radius: 35px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #ffffff;
   display: inline-block;
-  font-size: 12px;
-  font-weight: bold;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 30px;
-  text-transform: uppercase;
-  -webkit-transition: 0.4;
-  -o-transition: 0.4;
-  transition: 0.4;
 }
 
 /*--
