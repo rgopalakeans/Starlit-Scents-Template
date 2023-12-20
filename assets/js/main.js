@@ -416,8 +416,8 @@ $('.vartical-product-active').each(function(){
         focusOnSelect: true,
         centerMode: false,
         centerPadding: 0,
-        prevArrow: '<span class="slick-prev"><i class="fa fa-angle-up"></i></span>',
-        nextArrow: '<span class="slick-next"><i class="fa fa-angle-down"></i></span>',
+        prevArrow: '<span class="slick-prev"><i class="ion-chevron-up"></i></span>',
+        nextArrow: '<span class="slick-next"><i class="ion-chevron-down"></i></span>',
         asNavFor: $details,
         responsive: [
         {
