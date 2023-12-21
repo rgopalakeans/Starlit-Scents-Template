@@ -202,8 +202,8 @@ heroSlider.slick({
     fade: true,
     infinite: true,
     slidesToShow: 1,
-    prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
     responsive: [
         {
           breakpoint: 767,
@@ -227,8 +227,8 @@ heroSlider.slick({
     fade: true,
     infinite: true,
     slidesToShow: 1,
-    prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
     responsive: [
         {
           breakpoint: 767,
@@ -248,8 +248,8 @@ product_4.slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: false,
-    prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"> <i class="bi bi-chevron-right"></i> </button>',
     responsive: [
         {
             breakpoint: 1199,
@@ -291,8 +291,8 @@ product_two_row_4.slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
-    prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
     responsive: [
         {
             breakpoint: 1199,
@@ -340,8 +340,8 @@ testimonialSlider.slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScoll: 1,
-    prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="ion-chevron-right"></i></button>'
+    prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>'
 });
    
 
@@ -375,8 +375,8 @@ $('.product-details-thumbs').each(function(){
         focusOnSelect: true,
         centerMode: true,
         centerPadding: 0,
-        prevArrow: '<button type="button" class="slick-prev"> <i class="ion-chevron-left"></i> </button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="ion-chevron-right"></i></button>',
+        prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
         asNavFor: $details,
     });
 });
@@ -497,7 +497,7 @@ $("#chekout-box-2").on("change",function(){
     ScrollUp Active
 -----------------------------------*/
 $.scrollUp({
-    scrollText: '<i class="ion-chevron-up"></i>',
+    scrollText: '<i class="bi bi-chevron-up"></i>',
     easingType: 'linear',
     scrollSpeed: 900,
     animation: 'fade'
