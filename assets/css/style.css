@@ -8598,8 +8598,9 @@ img.mfp-img {
   opacity: 0;
   z-index: -1;
 }
-.btn:hover, .btn-2:hover {
+.btn:hover, .btn-2:hover, .btn:first-child:hover {
   color: #ff5151 !important;
+  border-color: #414141;
 }
 .btn:hover::before, .btn-2:hover::before {
   height: 500%;
@@ -8693,6 +8694,9 @@ img.mfp-img {
 
 .btn-2 {
   padding: 8px 30px;
+}
+.bi::before, [class*=" bi-"]::before, [class^="bi-"]::before{
+  font-weight: 900 !important;
 }
 
 /*====  Blockquote  ====*/
@@ -9127,7 +9131,7 @@ img.mfp-img {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-.nav-menu ul > li > a::before {
+/* .nav-menu ul > li > a::before {
   opacity: 0;
   background: #ff5151;
   content: "";
@@ -9140,16 +9144,16 @@ img.mfp-img {
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-}
+} */
 .nav-menu ul > li:first-child {
   padding-left: 0;
 }
-.nav-menu ul > li:hover > a::before {
+/* .nav-menu ul > li:hover > a::before {
   width: 100%;
   visibility: visible;
   opacity: 1;
   -ms-filter: 1;
-}
+} */
 .nav-menu ul > li:hover .sub-menu, .nav-menu ul > li:hover .mega-menu {
   visibility: visible;
   opacity: 1;
@@ -9427,7 +9431,7 @@ img.mfp-img {
   }
 }
 .right-blok-box a {
-  font-size: 24px;
+  font-size: 18px;
 }
 @media only screen and (max-width: 479px) {
   .right-blok-box a {
@@ -11511,12 +11515,12 @@ ul.minicart-pricing-box li:last-child {
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;
 }
-.slick-current .hero-content-one .btn {
+/* .slick-current .hero-content-one .btn {
   -webkit-animation-name: fadeInBottom;
           animation-name: fadeInBottom;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
-}
+} */
 .slick-current .hero-content-one .slider-inner-image {
   opacity: 1;
   -ms-filter: 1;
@@ -11729,13 +11733,7 @@ ul.minicart-pricing-box li:last-child {
   margin-top: 80px;
 }
 .hero-slider-two .slider-btn-two {
-  font-weight: 600;
   margin-top: 20px;
-  color: #fff;
-  background-color: #ff5151;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
   position: relative;
 }
 /* .hero-slider-two .slider-btn-two::before {
@@ -11750,41 +11748,39 @@ ul.minicart-pricing-box li:last-child {
 .hero-slider-two .social-top {
   margin-top: 40px;
 }
+ /*==== Hero Content One ====*/
 
-.slick-current {
-  /*-- Hero Content One --*/
-}
 .slick-current .hero-content-one h3 {
   -webkit-animation-name: fadeInBottom;
-          animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
   -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
+  animation-duration: 0.3s;
 }
 .slick-current .hero-content-one h1 {
   -webkit-animation-name: fadeInBottom;
-          animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .slick-current .hero-content-one p {
   -webkit-animation-name: fadeInBottom;
-          animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
   -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
+  animation-duration: 0.7s;
 }
-.slick-current .hero-content-one .btn {
+/* .slick-current .hero-content-one .btn {
   -webkit-animation-name: fadeInBottom;
           animation-name: fadeInBottom;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
-}
+} */
 .slick-current .hero-content-one .slider-inner-image {
   opacity: 1;
   -ms-filter: 1;
   -webkit-animation-name: fadeInRight;
-          animation-name: fadeInRight;
+  animation-name: fadeInRight;
   -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
+  animation-duration: 0.9s;
 }
 
 .hero-slider-one .slick-dots {
@@ -14778,22 +14774,25 @@ justify-content: space-between;*/
 }
 .newsletter-footer input {
   width: 100%;
-  border: none;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  border: 1px solid #fff;
+  padding: 10px 10px;
   background-color: transparent;
+  color: #fff;
+  border-radius: 0.375rem 0px 0 0.375rem;
 }
 .newsletter-footer .subscribe-button {
   width: fit-content;
 }
 .newsletter-footer .subscribe-btn {
-  padding: 6px 20px;
+  padding: 10.2px 20px;
   border: none;
   background: #ff5151;
   color: #ffffff;
-  margin-top: 12px;
+  margin-top: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -1px;
 }
-
 .footer-list li {
   margin-bottom: 8px;
 }
