@@ -10635,25 +10635,24 @@ ul.minicart-pricing-box li:last-child {
     display: none;
   }
 }
-/*------ sticky menu style end ------*/
-/*----- mobile menu start -----*/
+
+/*==== sticky menu style end ====*/
+
+/*====  mobile menu start ====*/
+
 .mobile-header .category-toggle {
   padding: 8px 15px;
 }
-
 .mobile-header-top {
   border-bottom: 1px solid #ebebeb;
 }
-
 .mobile-header-top .header-top-settings {
   float: none;
 }
-
 .mobile-logo {
   max-width: 140px;
   width: 100%;
 }
-
 .mobile-main-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10684,7 +10683,6 @@ ul.minicart-pricing-box li:last-child {
   -ms-flex-align: center;
   align-items: center;
 }
-
 .mobile-main-header .mobile-menu-toggler .mini-cart-wrap {
   display: inline-block;
   font-size: 24px;
@@ -10692,15 +10690,12 @@ ul.minicart-pricing-box li:last-child {
   position: relative;
   margin-left: 30px;
 }
-
 .mobile-main-header .mobile-menu-toggler .mini-cart-wrap a {
   color: #252525;
 }
-
 .mobile-main-header .mobile-menu-toggler .mini-cart-wrap a:hover {
   color: #ff5151;
 }
-
 .mobile-main-header .mobile-menu-toggler .mini-cart-wrap .notification {
   font-size: 13px;
   color: #fff;
@@ -10715,11 +10710,9 @@ ul.minicart-pricing-box li:last-child {
   position: absolute;
   background-color: #ff5151;
 }
-
 .mobile-main-header .mobile-menu-toggler .mobile-menu-btn {
   margin-left: 15px;
 }
-
 .mobile-main-header .mobile-menu-toggler .mobile-menu-btn .off-canvas-btn {
   font-size: 30px;
   cursor: pointer;
@@ -10730,20 +10723,16 @@ ul.minicart-pricing-box li:last-child {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-
 .mobile-main-header .mobile-menu-toggler .mobile-menu-btn .off-canvas-btn:hover {
   color: #ff5151;
 }
-
 .mobile-navigation {
   overflow: hidden;
   max-height: 250px;
 }
-
 .mobile-navigation nav {
   height: 100%;
 }
-
 .mobile-menu {
   margin-top: 30px;
   height: 100%;
@@ -10766,26 +10755,21 @@ ul.minicart-pricing-box li:last-child {
   display: inline-block;
   padding: 10px 0;
 }
-
 .mobile-menu li > a:hover {
   color: #ff5151;
 }
-
 .mobile-menu li ul li {
   border: none;
 }
-
 .mobile-menu li ul li a {
   font-size: 14px;
   text-transform: capitalize;
   padding: 10px 15px 8px;
 }
-
 .mobile-menu .has-children,
 .mobile-menu .menu-item-has-children {
   position: relative;
 }
-
 .mobile-menu .has-children .menu-expand,
 .mobile-menu .menu-item-has-children .menu-expand {
   line-height: 50;
@@ -10797,7 +10781,6 @@ ul.minicart-pricing-box li:last-child {
   text-align: center;
   cursor: pointer;
 }
-
 .mobile-menu .has-children .menu-expand i,
 .mobile-menu .menu-item-has-children .menu-expand i {
   display: block;
@@ -10809,7 +10792,6 @@ ul.minicart-pricing-box li:last-child {
   -o-transition: all 250ms ease-out;
   transition: all 250ms ease-out;
 }
-
 .mobile-menu .has-children .menu-expand i:before,
 .mobile-menu .menu-item-has-children .menu-expand i:before {
   top: 0;
@@ -10825,7 +10807,6 @@ ul.minicart-pricing-box li:last-child {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-
 .mobile-menu .has-children.active > .menu-expand i:before,
 .mobile-menu .menu-item-has-children.active > .menu-expand i:before {
   -webkit-transform: rotate(0);
@@ -10833,7 +10814,10 @@ ul.minicart-pricing-box li:last-child {
   transform: rotate(0);
 }
 
-/*------ offcanvas widget area start ------*/
+/*==== Mobile top bar settings End ====*/
+
+/*====  offcanvas widget area start ====*/
+
 .offcanvas-widget-area {
   margin-top: auto;
   padding-bottom: 0px;
@@ -10849,35 +10833,27 @@ ul.minicart-pricing-box li:last-child {
   font-size: 15px;
   margin-bottom: 5px;
 }
-
 .off-canvas-contact-widget li i {
   width: 20px;
 }
-
 .off-canvas-contact-widget li a {
   color: #555;
 }
-
 .off-canvas-contact-widget li a:hover {
   color: #ff5151;
 }
-
 .off-canvas-social-widget {
   margin-top: 20px;
 }
-
 .off-canvas-social-widget a {
   color: #555;
   font-size: 18px;
   display: inline-block;
   margin-right: 15px;
 }
-
 .off-canvas-social-widget a:hover {
   color: #ff5151;
 }
-
-/*------ offcanvas widget area end ------*/
 .off-canvas-wrapper {
   position: fixed;
   top: 0;
@@ -10891,18 +10867,15 @@ ul.minicart-pricing-box li:last-child {
   transition: 0.4s;
   z-index: 9999;
 }
-
 .off-canvas-wrapper.open {
   opacity: 1;
   visibility: visible;
 }
-
 .off-canvas-wrapper.open .off-canvas-inner-content {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
 }
-
 .off-canvas-wrapper .off-canvas-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
@@ -10913,7 +10886,6 @@ ul.minicart-pricing-box li:last-child {
   height: 100%;
   width: 100%;
 }
-
 .off-canvas-wrapper .off-canvas-inner-content {
   background-color: #fff;
   width: 300px;
@@ -10986,8 +10958,7 @@ ul.minicart-pricing-box li:last-child {
   margin-left: auto;
   height: 100%;
 }
-
-/*==== mobile top bar settings end ====*/
+/*==== Off Canvas widget area End ====*/
 
 .category-dropdown-wrapper {
   height: 100%;
@@ -14038,7 +14009,7 @@ ul.minicart-pricing-box li:last-child {
   position: relative;
 	background: #f6f6f6;
 	color: #414141;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	margin: 0 0 30px;
 	padding: 1em 2em 1em 3.5em;
@@ -14130,7 +14101,7 @@ ul.minicart-pricing-box li:last-child {
   margin-bottom: 20px !important;
 }
 .single-form-row label {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 2px;
 }
 .single-form-row label span.required {
@@ -14146,9 +14117,12 @@ ul.minicart-pricing-box li:last-child {
 .single-form-row input::focus {
   outline: none;
 }
+.single-form-row input, .single-form-row textarea{
+  border-radius: 0.375rem;
+}
 .single-form-row textarea {
   border: 1px solid #999999;
-  color: #555555;
+  color: #414141;
   padding: 12px;
   width: 100%;
   font-size: 14px;
@@ -14173,8 +14147,7 @@ ul.minicart-pricing-box li:last-child {
   width: 100%;
   font-size: 14px;
   padding: 0 10px;
-  color: #555;
-  border: 1px solid #999;
+  color: #414141;
 }
 
 @media only screen and (max-width: 767px) {
