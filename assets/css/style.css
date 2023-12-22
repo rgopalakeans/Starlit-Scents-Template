@@ -13468,14 +13468,6 @@ ul.minicart-pricing-box li:last-child {
 
 .login-register-tab-list {
   text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   margin-bottom: 40px;
 }
 .login-register-tab-list .login-register-tab-btn {
