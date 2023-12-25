@@ -12620,15 +12620,19 @@ ul.minicart-pricing-box li:last-child {
   width: 80px;
   background: #ff5151;
   height: 60px;
-  line-height: 60px;
+  line-height: 22px;
   text-align: center;
   position: absolute;
   color: #fff;
   top: 0;
 }
+.single-blog .meta-tag > p{
+  width: fit-content;
+}
 .single-blog .meta-tag span {
   font-size: 20px;
   font-weight: 600;
+  display: block;
 }
 .single-blog .blog-content {
   margin-top: 25px;
