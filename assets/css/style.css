@@ -169,6 +169,7 @@ a:focus {
 .bi-heart::before {
 	vertical-align: -0.19rem;
 }
+
 /*==== Common CSS   ====*/
 
 .fix {
@@ -14514,6 +14515,10 @@ ul.minicart-pricing-box li:last-child {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   margin-left: -1px;
+}
+.newsletter-footer input::placeholder {
+  color: #ffffff;
+  opacity: 1;
 }
 .footer-list li {
   margin-bottom: 8px;
