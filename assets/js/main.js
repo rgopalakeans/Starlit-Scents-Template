@@ -344,6 +344,52 @@ testimonialSlider.slick({
     nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>'
 });
    
+/*====  category Slider  ====*/
+
+var homecategorySlider = $('.category-slider');
+homecategorySlider.slick({
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScoll: 1,
+    prevArrow: '<button type="button" class="slick-prev"> <i class="bi bi-chevron-left"></i> </button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
+    responsive: [
+        {
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 479,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
 
 /* Product Details Images Slider */
 $('.product-details-images').each(function(){
