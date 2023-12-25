@@ -13737,7 +13737,8 @@ ul.minicart-pricing-box li:last-child {
   font-size: 15px;
   padding: 5px 45px 6px 10px;
   position: relative;
-  border-radius: 35px;
+  border-radius: .375rem;
+  width: 100%;
 }
 .search-form-input .search-s-button {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
