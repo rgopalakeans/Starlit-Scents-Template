@@ -8230,11 +8230,11 @@ img.mfp-img {
   background-color: #323131;
   color: #ffffff;
 }
-.instagram {
+.insta-box {
   background-color: #DC3472;
   color: #ffffff;
 }
-.instagram:hover {
+.insta-box:hover {
   background-color: #DC3472;
   color: #ffffff;
 }
@@ -11767,17 +11767,6 @@ ul.minicart-pricing-box li:last-child {
 	flex-wrap: wrap;
 	gap: 30px 15px;
 }
-
-.single-product-wrap:hover .product-action {
-  opacity: 1;
-  -ms-filter: 1;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.single-product-wrap:hover .product-image > a {
-  border: 1px solid #ff5151;
-}
 .single-product-wrap:hover a:before {
   opacity: 1;
   -ms-filter: 1;
@@ -11788,10 +11777,13 @@ ul.minicart-pricing-box li:last-child {
 .product-image > a {
   display: block;
   position: relative;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 .product-image > a img {
   width: 100%;
+}
+.single-product-wrap:hover .product-image > a {
+  border: 1px solid #ff5151;
 }
 .product-image .product-action {
   display: inline-block;
@@ -11805,6 +11797,35 @@ ul.minicart-pricing-box li:last-child {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+.home2 .product-image .product-action {
+	display: flex;
+  flex-direction: column;
+	gap: 10px;
+	width: fit-content;
+	position: absolute;
+  left: auto;
+  right: -40px;
+  top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+	opacity: 0;
+	-ms-filter: 0;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.single-product-wrap:hover .product-action {
+  opacity: 1;
+  -ms-filter: 1;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.home2 .single-product-wrap:hover .product-action {
+  opacity: 1;
+  -ms-filter: 1;
+  right: 5px;
 }
 .product-image .product-action .wishlist, 
 .product-image .product-action .add-to-cart, 
@@ -14481,7 +14502,22 @@ ul.minicart-pricing-box li:last-child {
   color: #008000;
   font-style: italic;
 }
-/*====  22. Footer  ====*/
+
+/*==== 22.Instagram Section =====*/
+
+.insta-box {
+	position: relative;
+}
+.insta-tag {
+	width: fit-content;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*====  23. Footer  ====*/
 
 .footer-top {
   background: #f6f6f6;
