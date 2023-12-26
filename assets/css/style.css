@@ -9152,7 +9152,18 @@ img.mfp-img {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	z-index: 999;
 }
-
+.boxed-layout .is-sticky {
+	max-width: 1400px !important;
+	margin: auto !important;
+	right: 0;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .boxed-layout .is-sticky {
+    max-width: 1200px !important;
+    margin: auto !important;
+    right: 0;
+  }
+}
 /*====  Main Menu CSS   ====*/
 
 .nav-menu .sub-menu {
