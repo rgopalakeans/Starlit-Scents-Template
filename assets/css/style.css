@@ -5809,6 +5809,14 @@ ul.minicart-pricing-box li:last-child {
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.product_details_container .slick-arrow{
+  color: #252525;
+  background-color: transparent;
+  border: 0;
+}
+.product_details_container .slick-arrow:hover{
+  color: #FF4501;
+}
 .product_small_images-left:hover .slick-prev, .product_small_images-left:hover .slick-next, .product_small_images-bottom:hover .slick-prev, .product_small_images-bottom:hover .slick-next {
 	opacity: 1;
 	visibility: visible;
@@ -6936,11 +6944,6 @@ ul.minicart-pricing-box li:last-child {
 
 /*====  15. My Account Page ====*/
 
-.dashboard-upper-info [class*=col-]:not(:last-child) .d-single-info {
-  /* border-right: 1px solid #ebebeb;
-  border-left:1px solid #ebebeb;  
-  padding: 30px 20px;*/
-}
 .dashboard-upper-info [class*=col-]:not(:last-child) .d-single-info p {
   margin-bottom: 0;
 }
@@ -6958,8 +6961,6 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .dashboard-upper-info {
-  /* border-bottom: 1px solid #ebebeb;
-  border-top: 1px solid #ebebeb; */
   margin-bottom: 60px;
 }
 .dashboard-upper-info a.view-cart {
