@@ -6938,8 +6938,9 @@ ul.minicart-pricing-box li:last-child {
 /*====  15. My Account Page ====*/
 
 .dashboard-upper-info [class*=col-]:not(:last-child) .d-single-info {
-  border-right: 1px solid #ebebeb;
-  padding: 30px 20px;
+  /* border-right: 1px solid #ebebeb;
+  border-left:1px solid #ebebeb;  
+  padding: 30px 20px;*/
 }
 .dashboard-upper-info [class*=col-]:not(:last-child) .d-single-info p {
   margin-bottom: 0;
@@ -6958,8 +6959,8 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .dashboard-upper-info {
-  border-bottom: 1px solid #ebebeb;
-  border-top: 1px solid #ebebeb;
+  /* border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb; */
   margin-bottom: 60px;
 }
 .dashboard-upper-info a.view-cart {
@@ -6997,18 +6998,21 @@ ul.minicart-pricing-box li:last-child {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14px;
-  padding: 12px 0;
+  font-size: 16px;
+  padding: 10px;
   text-transform: capitalize;
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid #ebebeb;
+  font-weight: 500;
 }
 .dashboard-list button:hover, .dashboard-list button:focus, .dashboard-list button .active, .dashboard-list a:hover, .dashboard-list a:focus, .dashboard-list a .active {
   color: #ff5151;
 }
 .dashboard-list:first-child {
   border-top: 1px solid #ebebeb;
+}
+.nav.dashboard-list{
+  border: 1px solid #ebebeb;
 }
 .dashboard-content {
   border: 1px solid #ebebeb;

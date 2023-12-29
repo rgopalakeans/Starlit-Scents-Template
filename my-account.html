@@ -326,27 +326,30 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="account-dashboard">
-                            <div class="dashboard-upper-info">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col-lg-3 col-md-12">
-                                        <div class="d-single-info">
+                            <div class="dashboard-upper-info border">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-3 col-md-12 d-flex align-items-center border-end p-3">
+                                        <i class="bi bi-box-arrow-in-right"></i>
+                                        <div class="d-single-info ms-3">
                                             <p class="user-name">Hello <span>mymail@zenflame.com</span></p>
                                             <p>(not mymail@zenflame.com? <a href="#">Log Out</a>)</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-12">
-                                        <div class="d-single-info">
+                                    <div class="col-lg-4 col-md-12 d-flex align-items-center border-end p-3">
+                                        <i class="bi bi-person-square"></i>
+                                        <div class="d-single-info ms-3">
                                             <p>Need Assistance? Customer service at.</p>
-                                            <p>mail@zenflame.com</p>
+                                            <p><a href="mailto:mail@zenflame.com">mail@zenflame.com</a></p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-12">
-                                        <div class="d-single-info">
+                                    <div class="col-lg-3 col-md-12 d-flex align-items-center border-end p-3">
+                                        <i class="bi bi-envelope"></i>
+                                        <div class="d-single-info ms-3">
                                             <p>E-mail them at </p>
-                                            <p>support@zenflame.com</p>
+                                            <p><a href="mailto:support@zenflame.com">support@zenflame.com</a></p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-2 col-md-12">
+                                    <div class="col-lg-2 col-md-12 d-flex align-items-center justify-content-center p-3">
                                         <div class="d-single-info text-lg-center">
                                             <a href="cart.html" class="btn view-cart">view cart</a>
                                         </div>
@@ -357,11 +360,11 @@
                                 <div class="col-md-12 col-lg-2">
                                     <!-- Nav tabs -->
                                     <div class="nav dashboard-list">
-                                        <button type="button" data-bs-toggle="tab" data-bs-target="#dashboard" class="nav-link active">Dashboard</button>
-                                        <button type="button" data-bs-toggle="tab" data-bs-target="#orders" class="nav-link">Orders</button>
-                                        <button type="button" data-bs-toggle="tab" data-bs-target="#downloads" class="nav-link">Downloads</button>
-                                        <button type="button" data-bs-toggle="tab" data-bs-target="#address" class="nav-link">Addresses</button>
-                                        <button type="button" data-bs-toggle="tab" data-bs-target="#account-details" class="nav-link">Account details</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#dashboard" class="nav-link border-bottom active">Dashboard</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#orders" class="nav-link border-bottom">Orders</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#downloads" class="nav-link border-bottom">Downloads</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#address" class="nav-link border-bottom">Addresses</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#account-details" class="nav-link border-bottom">Account details</button>
                                         <a href="login-register.html" class="nav-link">logout</a>
                                     </div>
                                 </div>
@@ -521,7 +524,7 @@
         <footer>
             <div class="footer-top section-pb section-pt-60">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <div class="col-lg-3 col-md-6">
                             <div class="widget-footer mt-20">
                                 <div class="footer-logo">
@@ -538,9 +541,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="widget-footer mt-30">
-                                <h4 class="title-widget text-uppercase mb-20">QUICK LINK</h4>
+                        <div class="col-lg-3 col-md-6 d-flex justify-content-start justify-content-lg-center">
+                            <div class="widget-footer mt-30 col-auto">
+                                <h4 class="title-widget text-capitalize mb-20">Quick Link</h4>
                                 <ul class="footer-list">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about-us.html">About Us</a></li>
@@ -551,9 +554,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="widget-footer mt-30">
-                                <h4 class="title-widget text-uppercase mb-20">My Account</h4>
+                        <div class="col-lg-3 col-md-6 d-flex justify-content-start justify-content-lg-center">
+                            <div class="widget-footer mt-30 col-auto">
+                                <h4 class="title-widget text-capitalize mb-20">My Account</h4>
                                 <ul class="footer-list">
                                     <li><a href="my-account.html">My Account</a></li>
                                     <li><a href="contact-us.html">Order History</a></li>
@@ -563,9 +566,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="widget-footer mt-30">
-                                <h4 class="title-widget text-uppercase mb-20">CONTACT US</h4>
+                        <div class="col-lg-3 col-md-6 d-flex justify-content-start justify-content-lg-end">
+                            <div class="widget-footer mt-30 col-auto">
+                                <h4 class="title-widget text-capitalize mb-20">Contact Us</h4>
                                 <ul class="footer-contact">
                                     <li class="d-flex">
                                         <span class="me-2"><i class="bi bi-house-fill"></i></span>322/52 Abort road, sety city <br> New work, United States.
