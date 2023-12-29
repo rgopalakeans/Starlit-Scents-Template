@@ -5575,9 +5575,6 @@ ul.minicart-pricing-box li:last-child {
   border: none;
   background-color: transparent;
 }
-.product_small_images-bottom .slick-list {
-  margin-right: -15px;
-}
 .product_details_info > h2 {
   color: #252525;
   text-transform: capitalize;
@@ -5822,7 +5819,13 @@ ul.minicart-pricing-box li:last-child {
 	visibility: visible;
 }
 .product_small_images-bottom .slick-next {
-	right: 0;
+	right: 15px;
+}
+.product_small_images-bottom .slick-list {
+  margin-right: 0px;
+}
+.product_small_images-bottom.slick-initialized .slick-slide + .slick-slide {
+	margin-left: 10px;
 }
 .product_small_images-left .slick-next{
   bottom: 15px;
