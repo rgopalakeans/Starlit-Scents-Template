@@ -6594,7 +6594,7 @@ ul.minicart-pricing-box li:last-child {
   margin-top: 0;
 }
 .sidbar-product .sidbar-product-inner .product-content h3 {
-  font-size: 15px;
+  font-size: 20px;
 }
 .sidbar-product .sidbar-product-inner .product-content .price-box {
   font-size: 16px;
@@ -6775,12 +6775,12 @@ ul.minicart-pricing-box li:last-child {
 .compare-table .table tbody tr td.product-image-title {
   min-width: 310px;
   vertical-align: bottom;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 .compare-table .table tbody tr td.product-image-title .image {
   clear: both;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .compare-table .table tbody tr td.product-image-title .image img {
   max-width: 100%;
