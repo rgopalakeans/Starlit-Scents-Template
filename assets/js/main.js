@@ -377,7 +377,7 @@ homecategorySlider.slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 540,
             settings: {
                 slidesToShow: 2,
             }

@@ -296,13 +296,13 @@ img {
 @media only screen and (max-width: 767px) {
   .container-fluid {
     padding: 0 15px;
-    width: 450px;
+    /* width: 450px; */
   }
 }
 @media only screen and (max-width: 479px) {
   .container-fluid {
     padding: 0 15px;
-    width: 320px;
+    /* width: 320px; */
   }
 }
 
@@ -3428,7 +3428,9 @@ img.mfp-img {
   -ms-transform: rotate(0);
   transform: rotate(0);
 }
-
+.mobile-menu .megamenu ul.dropdown{
+  padding-left: 15px;
+}
 /*==== mobile menu end ====*/
 
 /*==== Header Top ====*/
@@ -5880,6 +5882,9 @@ ul.minicart-pricing-box li:last-child {
   -ms-transform: rotate(15deg);
   transform: rotate(15deg);
 }
+.home2 .banner-content .btn{
+  padding: 5px 20px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .banner-content {
     padding: 0 20px;
@@ -5890,10 +5895,18 @@ ul.minicart-pricing-box li:last-child {
     padding: 0 10px;
     margin: 10px;
   }
+  .home2 .banner-content {
+    padding: 0 10px;
+    margin: 20px;
+  }
   .banner-content p {
     margin-bottom: 5px;
   }
-}
+  .home2 .banner-content P{
+    font-size: 14px;
+    line-height: 18px;
+  }
+ }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-content {
     padding: 0 10px;
@@ -5901,6 +5914,24 @@ ul.minicart-pricing-box li:last-child {
   }
   .banner-content p {
     margin-bottom: 5px;
+  }
+  .home2 .banner-content {
+    padding: 0 10px;
+    margin: 20px;
+  }
+  .home2 .banner-content P{
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .home2 .banner-content {
+    padding: 0 10px;
+    margin: 20px;
+  }
+  .home2 .banner-content P{
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -5910,6 +5941,8 @@ ul.minicart-pricing-box li:last-child {
   }
   .banner-content p {
     margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 .single-banner-two:hover img {
@@ -7911,6 +7944,15 @@ ul.minicart-pricing-box li:last-child {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   margin-left: -1px;
+}
+@media only screen and (max-width: 767px){
+  .newsletter-footer .subscribe-btn {
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+  }
+  .newsletter-footer input {
+    border-radius: 0.375rem;
+  }
 }
 .newsletter-footer input::placeholder {
   color: #ffffff;
