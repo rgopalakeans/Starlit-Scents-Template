@@ -5594,7 +5594,7 @@ ul.minicart-pricing-box li:last-child {
   font-size: 22px;
   color: #ff5151;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-top: 10px;
   font-weight: 500;
 }
@@ -5661,7 +5661,7 @@ ul.minicart-pricing-box li:last-child {
   height: 30px;
 }
 .pro_social_share {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .pro_social_share .pro_social_link > li {
   display: inline-block;
@@ -6282,6 +6282,10 @@ ul.minicart-pricing-box li:last-child {
 .admin-info .author-socialicons li a:hover {
   color: #252525;
 }
+.review_date {
+  color: #ff5151;
+  margin-bottom: 20px;
+}
 .review_address_inner {
   position: relative;
 }
@@ -6294,7 +6298,7 @@ ul.minicart-pricing-box li:last-child {
   position: relative;
 }
 .pro_review:nth-child(3n) {
-  padding-left: 60px;
+  margin-left: 154px;
 }
 @media only screen and (max-width: 767px) {
   .pro_review:nth-child(3n) {
@@ -6318,11 +6322,6 @@ ul.minicart-pricing-box li:last-child {
 
 .review_info h5 {
   font-weight: 600;
-}
-.rating_send {
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 .rating_send a {
   display: block;
@@ -7946,8 +7945,7 @@ ul.minicart-pricing-box li:last-child {
   position: relative;
 }
 .widget-blog-content h6 {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
 }
 .widget-blog-content span {
   font-size: 13px;
