@@ -232,12 +232,15 @@ img {
 }
 @media only screen and (max-width: 767px) {
   .container {
-    width: 450px;
+    width: 100%;
+    max-width: 600px;;
+    padding: 0 15px;
   }
 }
 @media only screen and (max-width: 479px) {
   .container {
-    width: 300px;
+    width: 100%;
+    max-width: 420px;
   }
 }
 .bold {
@@ -296,44 +299,11 @@ img {
 @media only screen and (max-width: 767px) {
   .container-fluid {
     padding: 0 15px;
-    /* width: 450px; */
   }
 }
 @media only screen and (max-width: 479px) {
   .container-fluid {
     padding: 0 15px;
-    /* width: 320px; */
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .footer-section .container-fluid {
-    padding: 0 15px;
-    width: 1200px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .footer-section .container-fluid {
-    padding: 0 15px;
-    width: 960px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer-section .container-fluid {
-    padding: 0 15px;
-    width: 750px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .footer-section .container-fluid {
-    padding: 0 15px;
-    width: 450px;
-  }
-}
-@media only screen and (max-width: 479px) {
-  .footer-section .container-fluid {
-    padding: 0 15px;
-    width: 320px;
   }
 }
 
@@ -2334,18 +2304,6 @@ img.mfp-img {
 .btn.btn-small, .btn-2.btn-small {
   padding: 4px 15px;
   font-size: 11px;
-}
-@media only screen and (max-width: 767px) {
-  .btn, .btn-2 {
-    font-size: 12px;
-    padding: 7px 25px;
-  }
-}
-@media only screen and (max-width: 479px) {
-  .btn, .btn-2 {
-    font-size: 11px;
-    padding: 4px 15px;
-  }
 }
 
 .btn-2 {
@@ -5933,6 +5891,10 @@ ul.minicart-pricing-box li:last-child {
     font-size: 12px;
     line-height: 16px;
   }
+  .category-slider .btn{
+    font-size: 12px;
+    padding: 7px 25px;
+  }
 }
 @media only screen and (max-width: 479px) {
   .banner-content {
@@ -5943,6 +5905,10 @@ ul.minicart-pricing-box li:last-child {
     margin-bottom: 5px;
     font-size: 12px;
     line-height: 16px;
+  }
+  .category-slider .btn{
+    font-size: 11px;
+    padding: 4px 15px;
   }
 }
 .single-banner-two:hover img {
@@ -5999,21 +5965,15 @@ ul.minicart-pricing-box li:last-child {
   font-weight: 600;
   font-size: 18px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .full-banner-content {
-    margin-left: 20px;
-  }
-}
+@m
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .full-banner-content {
     padding: 40px 10px;
-    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
   .full-banner-content {
-    padding: 30px 10px;
-    margin-left: 10px;
+    padding: 30px 0px;
   }
   .full-banner-content h3 {
     font-size: 18px;
@@ -7066,12 +7026,12 @@ ul.minicart-pricing-box li:last-child {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .dashboard-content .table td {
-    min-width: 260px;
+    /* min-width: 260px; */
   }
 }
 @media only screen and (max-width: 767px) {
   .dashboard-content .table td {
-    min-width: 260px;
+    /* min-width: 260px; */
   }
 }
 .dashboard-content .view {
@@ -7086,6 +7046,8 @@ ul.minicart-pricing-box li:last-child {
 @media only screen and (max-width: 767px) {
   .dashboard-content {
     margin-top: 60px;
+    border: 0;
+    padding: 0;
   }
 }
 
@@ -7330,6 +7292,11 @@ ul.minicart-pricing-box li:last-child {
 	border-top: 3px solid #ff5151;
 	text-transform: capitalize;
 }
+@media only screen and (max-width: 767px){
+  .coupon-accordion h3{
+    padding: 1rem;
+  }
+}
 .coupon-accordion h3 .coupon {
   color: #ff5151;;
   cursor: pointer;
@@ -7481,6 +7448,11 @@ ul.minicart-pricing-box li:last-child {
 .your-order-table {
   padding: 20px 30px;
 }
+@media only screen and (max-width: 767px){
+  .your-order-table {
+    padding: 10px 15px;
+  }
+}
 .your-order-table table {
   width: 100%;
 }
@@ -7505,6 +7477,11 @@ ul.minicart-pricing-box li:last-child {
 }
 .payment-method {
   padding: 20px 30px;
+}
+@media only screen and (max-width: 767px){
+  .payment-method {
+    padding: 20px 15px;
+  }
 }
 .payment-accordion h3 a {
   color: #333333;
@@ -7539,12 +7516,14 @@ ul.minicart-pricing-box li:last-child {
   margin-top: 30px;
 }
 .order-button-payment input {
-  text-transform: uppercase;
+  text-transform: capitalize;
   width: 100%;
   background-color: transparent;
   border: 0;
   box-shadow: none;
   color:#ffffff;
+  font-size: 16px;
+  font-weight: 600;
 }
 .order-button-payment:hover input {
   color: #ffffff;
