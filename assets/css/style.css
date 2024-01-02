@@ -6867,7 +6867,19 @@ ul.minicart-pricing-box li:last-child {
   color: #000000;
   font-size: 14px;
 }
-
+@media only screen and (max-width: 767px){
+  .compare-table .table tbody tr td{
+    padding: 15px;
+  }
+  .compare-table .table tbody tr td.product-image-title {
+    min-width: 270px;
+    padding: 15px 15px 5px 15px;
+  }
+  .compare-table .table tbody tr td.first-column {
+    min-width: 120px;
+    font-size: 16px;
+  }
+}
 /*====  14. Login And Register  ====*/
 
 .login-register-tab-list {
@@ -7225,6 +7237,10 @@ ul.minicart-pricing-box li:last-child {
 @media only screen and (max-width: 479px) {
   .cart-table .coupon-all .coupon input {
     width: 125px;
+  }
+  .cart-table .table-content table td{
+    min-width: 100px;
+    padding: 6px 6px;
   }
 }
 .cart-table .coupon-all .coupon2 {
