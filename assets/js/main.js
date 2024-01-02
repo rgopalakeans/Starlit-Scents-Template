@@ -260,7 +260,7 @@ product_4.slick({
         {
             breakpoint: 991,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 3,
             }
         },
         {
@@ -350,7 +350,7 @@ var homecategorySlider = $('.category-slider');
 homecategorySlider.slick({
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 1500,
     dots: false,
     infinite: true,
     slidesToShow: 3,
@@ -379,7 +379,7 @@ homecategorySlider.slick({
         {
             breakpoint: 540,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
             }
         },
         {
@@ -469,25 +469,27 @@ $('.vartical-product-active').each(function(){
         {
             breakpoint: 1200,
             settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             }
         },
         {
             breakpoint: 991,
             settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
+            vertical:false,
             }
         },
         {
             breakpoint: 767,
             settings: {
-            slidesToShow: 2,
+            slidesToShow: 4,
+            vertical:false,
             }
         },
         {
             breakpoint: 479,
             settings: {
-            slidesToShow: 2,
+            slidesToShow: 4,
             }
         }
     ]
