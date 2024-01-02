@@ -7602,11 +7602,6 @@ ul.minicart-pricing-box li:last-child {
 .about-us-contents h2 > span {
   color: #ff5151;
 }
-@media only screen and (max-width: 767px) {
-  .about-us-contents .about-us-btn > a {
-    margin-top: 10px;
-  }
-}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-us-image {
     text-align: left !important;
@@ -7646,7 +7641,7 @@ ul.minicart-pricing-box li:last-child {
   position: relative;
 }
 .single-team-info {
-  position: absolute;
+  position: relative;
   width: 100%;
   padding-top: 25px;
   text-align: center;
@@ -7693,8 +7688,15 @@ ul.minicart-pricing-box li:last-child {
 .single-team:hover .personsl-socail {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 80px;
 }
+@media only screen and (max-width: 575px){
+  .our-team-area .team-row .col{
+    width: fit-content;
+    flex: 0 auto;
+  }
+}
+
 
 /* ==== 21. Project Conunt ====*/
 
