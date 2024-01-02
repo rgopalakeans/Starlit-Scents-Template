@@ -6722,18 +6722,24 @@ ul.minicart-pricing-box li:last-child {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .shop-sidebar-wrap {
-    margin-top: 80px;
+  .shop-product-wrapper {
+    margin-top: 60px;
+  }
+  .sidbar-product.shop-sidebar {
+    display: none;
   }
 }
 @media only screen and (max-width: 767px) {
-  .shop-sidebar-wrap {
-    margin-top: 70px;
+  .shop-product-wrapper {
+    margin-top: 50px;
+  }
+  .sidbar-product.shop-sidebar {
+    display: none;
   }
 }
 @media only screen and (max-width: 479px) {
-  .shop-sidebar-wrap {
-    margin-top: 60px;
+  .shop-product-wrapper {
+    margin-top: 40px;
   }
 }
 
