@@ -5237,6 +5237,11 @@ ul.minicart-pricing-box li:last-child {
   background-color: #ff5151;
   color: #fff;
 }
+@media only screen and (max-width: 479px){
+  .related.porduct-area .single-product-wrap {
+    margin: 0 auto;
+  }
+}
 
 /*====  06. Testimonial   ====*/
 
@@ -5799,7 +5804,31 @@ ul.minicart-pricing-box li:last-child {
   left: 50%;
   transform: translateX(-50%);
 }
-
+@media only screen and (max-width: 991px){
+  .product_small_images-left .slick-prev {
+    top: 50%;
+    bottom: auto;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  .product_small_images-left .slick-next {
+    bottom: auto;
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  .product_small_images-left .slick-prev  .ion-chevron-up::before {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+  .product_small_images-left .slick-next .ion-chevron-down::before {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
 /*====  08. Banner  ====*/
 
 .single-banner {
