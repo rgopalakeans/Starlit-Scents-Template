@@ -490,6 +490,7 @@ $('.vartical-product-active').each(function(){
             breakpoint: 479,
             settings: {
             slidesToShow: 4,
+            vertical:false,
             }
         }
     ]
