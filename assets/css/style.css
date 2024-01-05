@@ -5705,8 +5705,17 @@ ul.minicart-pricing-box li:last-child {
   width: 100%;
 }
 @media only screen and (max-width: 479px) {
+  .product-details-tab .nav li{
+    margin-right: 10px;
+  }
+  .product-details-tab .nav li:last-child{
+    margin-right: 0;
+  }
   .product-details-tab .nav li button {
     padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
   }
   .product-details-tab .nav li button:last-child {
     margin-top: 10px;
