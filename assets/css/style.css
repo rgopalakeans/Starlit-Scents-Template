@@ -5271,6 +5271,9 @@ ul.minicart-pricing-box li:last-child {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.home2.testimonial-bg {
+  background: url(../images/bg/testimonial2-bg.jpg);
+}
 .content-testimonial {
   padding: 40px 35px 40px 30px;
   border-bottom: 1px solid #e1e1e1;
@@ -6000,6 +6003,10 @@ ul.minicart-pricing-box li:last-child {
   background: url(../images/banner/full-banner-bg.jpg) no-repeat center;
   background-size: cover;
   min-height: 500px;
+}
+.home2.banner-full {
+  background: url(../images/bg/full-banner2-bg.jpg) no-repeat center;
+  background-size: cover;
 }
 .full-banner-content {
   padding: 60px 50px;
@@ -7990,7 +7997,7 @@ ul.minicart-pricing-box li:last-child {
   width: fit-content;
 }
 .newsletter-footer .subscribe-btn {
-  padding: 10.2px 20px;
+  padding: 10.5px 20px;
   border: none;
   background: #ff5151;
   color: #ffffff;
@@ -8063,5 +8070,10 @@ ul.minicart-pricing-box li:last-child {
   background-size: auto;
   background-size: cover;
   min-height: 320px;
+}
+.home2.newsletter-banner{
+  background: url(../images/bg/newsletter2-bg.jpg) no-repeat center;
+  background-size: auto;
+  background-size: cover;
 }
 /*====  Footer End  ====*/
