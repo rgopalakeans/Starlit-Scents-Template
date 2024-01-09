@@ -7357,7 +7357,8 @@ ul.minicart-pricing-box li:last-child {
 .out-stock {
   color: #A80135;
 }
-.cart-product-thumbnail img {
+.cart-product-thumbnail img,
+.plantmore-product-thumbnail img {
 	max-width: 80px;
 }
 /*====  18. Checkout Page ====*/
