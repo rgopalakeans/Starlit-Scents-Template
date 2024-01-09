@@ -2390,14 +2390,13 @@ img.mfp-img {
 /*====  Breadcrumb CSS  ====*/
 
 .breadcrumb-area {
-  background: url("../images/bg/breadcrumb-bg.jpg") no-repeat scroll center center;
+  background: url("../images/bg/breadcrumb.jpg") no-repeat scroll center right;
+  background-size: cover;
   text-align: center;
 }
 .breadcrumb-area h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-weight: 900;
   margin-top: -5px;
-  color: #fff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breadcrumb-area h2 {
