@@ -2815,6 +2815,12 @@ img.mfp-img {
 .nav-menu .sub-menu > li > a::before {
   display: none;
 }
+.nav-menu .sub-menu > li > a > span, 
+.nav-menu .mega-menu > li ul li a > span,
+.mobile-menu li ul li a > span{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 900;
+}
 .nav-menu .mega-menu {
   width: 640px;
   position: absolute;
